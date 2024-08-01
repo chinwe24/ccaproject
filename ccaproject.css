@@ -18,7 +18,8 @@
 
 * {
     box-sizing: border-box;
-
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -47,30 +48,38 @@ ul{
 .see{
     background: #022C22;
 }
+
 .imageA{
-   
-    width: 42rem;
-    height: 46.4rem
+    width: 45rem;
+    height: 40.6rem;
 }
-.imageB{
-   
-    width: 42rem;
-    height: 46.4rem;
+
+.imageB {  
+    width: 45rem;
+    height: 40.6rem;
 }
 .imageC{
 
-    width: 42rem;
-    height: 46.4rem;
+    width: 45rem;
+    height: 40.6rem;
 }
+/* .p1{
+    width: 40.25rem;
+    height: 40.25rem;
+} */
 
 .p2{
     width: 60.25rem;
-    height: 60.25rem;
+    height: 50.25rem;
 }
 .pi1{
-    width: 60.25rem;
+    width: 50.25rem;
     height: 60.25rem;
 }
+/* .pi2{
+    width: 60.25rem;
+    height: 60.25rem;
+} */
 .box {
     background: var(--pri-color, #022C22);
 }
