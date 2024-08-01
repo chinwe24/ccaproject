@@ -44,25 +44,47 @@ ul{
 
 .create{
     font-size: 6.0rem;
+    /* font-family: satoshi-bold */
 }
 .see{
     background: #022C22;
 }
 
-.imageA{
-    width: 45rem;
-    height: 40.6rem;
+.custom-card {
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.custom-card img {
+    width: 100%;
+    height: 40.8rem;
+    max-width: 35.6rem;
+    
+}
+.custom-card-text {
+    position: absolute;
+    bottom: 2.0rem;
+    right: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* .imageA{
+    width: 35.6rem;
+    height: 40.8rem;
 }
 
 .imageB {  
-    width: 45rem;
-    height: 40.6rem;
+    width: 35.6rem;
+    height: 40.8rem;
 }
 .imageC{
 
-    width: 45rem;
-    height: 40.6rem;
-}
+    width: 35.6rem;
+    height: 40.8rem;
+} */
 /* .p1{
     width: 40.25rem;
     height: 40.25rem;
@@ -146,4 +168,39 @@ td {
     gap: 1.6rem;
     opacity: 0rem;
   
+}
+
+.box {
+    background: var(--pri-color, #022C22);
+    width: Fixed (131.2rem)rem;
+    height: Hug (26.4rem)rem;
+    padding: 2.4rem 5.6rem;
+    gap: 0px;
+    border-radius: 1.6rem 1.6rem;
+    justify-content: space-between;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* .fb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */
+
+.in {
+    width:  (34.1rem)rem;
+    height: Hug (7.6rem)rem;
+    border-radius: 1.0rem 1.0rem;
+    padding: 1.6rem 2.4rem;
+}
+
+.getin {
+    width: Hug (13.6rem)rem;
+    height: Hug (5.6rem)rem;
+    padding: 1.6rem 2.4rem 1.6rem 2.4rem;
+    border-radius: 1.0rem 1.0rem;
+    opacity: 0rem;
+    background: var(--sec-color, #BEF264);
 }
