@@ -35,12 +35,12 @@ ul{
     font-weight: 300;
 }
 
-.Ge{
+ .Ge{
     padding: 1.0rem 1.0rem;
     gap: 1.0rem;
     background: #022C22;
-    color: white;
-}
+    /* color: white; */
+} 
 
 .create{
     font-size: 6.0rem;
